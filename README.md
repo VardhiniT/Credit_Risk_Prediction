@@ -1,5 +1,14 @@
 # 🏦 MBS Defaulter Prediction - Financial Risk Modelling
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Imbalanced-Learn](https://img.shields.io/badge/SMOTE-Imbalanced%20Data-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Domain](https://img.shields.io/badge/Domain-Financial%20Risk-critical)
+
+> End-to-end machine learning pipeline for mortgage default risk prediction using real-world financial data.
+
 ---
 
 ## 🔹 Introduction About the Project
@@ -17,6 +26,35 @@ This is a **binary classification problem**, where financial and demographic fea
 * Compare performance of different machine learning models  
 * Evaluate model performance using appropriate classification metrics  
 
+## 🧩 Project Architecture
+
+```mermaid
+flowchart TD
+
+A[Raw Freddie Mac Dataset] --> B[Data Cleaning]
+B --> C[Feature Engineering]
+C --> D[Exploratory Data Analysis]
+
+D --> E[Train-Test Split]
+
+E --> F[Feature Scaling]
+
+F --> G[SelectKBest - ANOVA]
+G --> H[PCA - Dimensionality Reduction]
+
+H --> I[SMOTE - Handle Imbalance]
+
+I --> J[Model Training]
+
+J --> K1[Logistic Regression]
+J --> K2[Random Forest]
+
+K1 --> L[Model Evaluation]
+K2 --> L
+
+L --> M[Accuracy, F1-score, ROC-AUC]
+
+M --> N[Insights & Risk Drivers]
 ---
 
 ## 📊 Dataset Information
