@@ -1,11 +1,13 @@
 # 🏦 MBS Defaulter Prediction - Financial Risk Modelling
 
+![Problem Type](https://img.shields.io/badge/Problem-Binary%20Classification-informational)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Imbalanced-Learn](https://img.shields.io/badge/SMOTE-Imbalanced%20Data-red)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Domain](https://img.shields.io/badge/Domain-Financial%20Risk-critical)
+![Feature Selection](https://img.shields.io/badge/Feature%20Selection-SelectKBest%20(ANOVA)-orange)
+![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality%20Reduction-PCA-green)
+![Class Imbalance](https://img.shields.io/badge/Class%20Imbalance-SMOTE-red)
+![Models](https://img.shields.io/badge/Models-Logistic%20Regression%20%7C%20Random%20Forest-purple)
+![Evaluation](https://img.shields.io/badge/Evaluation-F1--Score%20%7C%20ROC--AUC-yellow)
+![Results](https://img.shields.io/badge/Accuracy-89.32%25-brightgreen)
 
 > End-to-end machine learning pipeline for mortgage default risk prediction using real-world financial data.
 
